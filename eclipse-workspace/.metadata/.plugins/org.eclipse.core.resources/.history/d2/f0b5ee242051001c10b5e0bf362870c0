@@ -1,0 +1,20 @@
+package com.ltts;
+
+public class NestedifDemo {
+	
+	int age = 35;
+    char gender = 'F'; // M - Male, F - Female
+    
+    if( age > 35 ) // outer if
+    {
+        if( gender == 'M' )    // LINE A
+        {
+            System.out.println("Man");
+        }
+        else
+        {
+            System.out.println("Woman");
+        }
+    }
+
+}
